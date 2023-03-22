@@ -54,7 +54,7 @@ function Header() {
               to="/about"
               onClick={() => updateExpanded(false)}
             >
-              About
+              Sobre Mim
             </Nav.Link>
           </Nav.Item>
 
@@ -64,7 +64,7 @@ function Header() {
               to="/project"
               onClick={() => updateExpanded(false)}
             >
-              Projects
+              Projetos
             </Nav.Link>
           </Nav.Item>
 
@@ -74,15 +74,15 @@ function Header() {
               to="/contact"
               onClick={() => updateExpanded(false)}
             >
-              Contact
+              Contato
             </Nav.Link>
           </Nav.Item>
 
           <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1V-dzW4a6YBkuyFIzMO1BpmV6G2TMSbkK/view?usp=share_link");
+              window.open("https://drive.google.com/file/d/1NdlCR6JRMJOAnhfjDzFE-hjgmhDxaW3R/view");
             }}
-            className='resumebtn'><span>Resume</span>
+            className='resumebtn'><span>Curriculum</span>
           </Button>
         </Nav>
       </Navbar.Collapse>
