@@ -3,7 +3,7 @@ import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
 import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
+import game from '../../Assets/game_home.png'
 import netfliximage from '../../Assets/React-App-netflix-clone.png'
 import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
 import charlespizza from '../../Assets/Charlestown-Pizza.png'
@@ -27,11 +27,11 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={game}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                title="Torneio de Heróis"
+                description="Web site desenvolvido em React, onde apliquei meus conhecimentos de UX/IU designer, desenvolvimento web, Java script, CSS, HTML e Bootstrap. Todo o projeto foi criação minha, onde busquei muita originalidade para mostrar minhas habilidades, usei ferramentas como o canva para o designer e a própria documentação do react para os componentes."
+                ghLink="https://jogo-torneio-de-herois.vercel.app/"
               />
             </Col>
 

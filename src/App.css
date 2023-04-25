@@ -25,7 +25,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #c850c0;
+  background-color: #0d55f1;
   background-image: url(../src/Assets/bars.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -44,12 +44,12 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #c05ab9cb;
+  background: #0125f3cb;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(174, 64, 224, 0.65);
+  background: rgba(234, 250, 9, 0.959);
   border-radius: 12px;
 }
 

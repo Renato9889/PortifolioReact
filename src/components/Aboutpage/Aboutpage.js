@@ -33,9 +33,9 @@ function Aboutpage() {
                                     <li>Python</li>
                                     <li>HTML5/CSS3</li>
                                     <li>JavaScript</li>
-                                    <li>java</li>
+                                    <li>Java</li>
                                     <li>C#</li>
-                                    <li>Experiência do usuário(UX)</li>
+                                    <li>UX e UI design</li>
                                     <li>Inglês Avançado</li>
                                     <li> Exelente Lógica de programação</li>
                                 </Col>

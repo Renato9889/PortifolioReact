@@ -5,8 +5,9 @@ import Text from '../Homepage/Text'
 import {
   AiFillGithub,
   AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn} from "react-icons/fa";
 
 function Home() {
   return (
@@ -30,8 +31,11 @@ function Home() {
               window.open("https://www.instagram.com/renato_luizx3/");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+            <button onClick={() => {
+               window.open('mailto:renatoluiz3498@gmail.com?subject=Via Portifólio');
+            }}
+            className='socailmediabtn'><AiFillMail className='icon'/></button>
           </Col>
-
           <Col md={5}>
             <div className="imagedeveloper">
             </div>
@@ -41,5 +45,4 @@ function Home() {
     </div>
   )
 }
-
 export default Home
