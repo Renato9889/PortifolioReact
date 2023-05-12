@@ -6,9 +6,9 @@ function Habilidades() {
     return (
         <div className='habilidadesbackground'>
             <Container>
-                <Row className='text2background'>
-                    <ul className='skilllist'>
+                <Row className='texthabilidadesbackground'>
                     <h3 className='habilidadestext'>Habilidades</h3>
+                    <ul className='skilllist'>
                             <Row>
                                 <Col md={4}>
                                     <li>Python</li>
@@ -39,7 +39,6 @@ function Habilidades() {
                                     <li>Criatividade e Inovação</li>
                                     <li>Capacidade analítica</li>
                                     <li>Exelente Lógica de programação</li>
-                                    
                                 </Col>
                             </Row>
                         </ul>
