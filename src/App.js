@@ -54,7 +54,7 @@ function App() {
         variants={variants}
         animate="default"
       />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
