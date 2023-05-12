@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortifolioReact/static/css/main.64d89b90.css",
-    "main.js": "/PortifolioReact/static/js/main.8072b9a3.js",
+    "main.js": "/PortifolioReact/static/js/main.c1ffc954.js",
     "static/media/game_home.png": "/PortifolioReact/static/media/game_home.b70148d51188ec788569.png",
     "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.19188e0c8c57c24f499c.png",
     "static/media/perfilRenato.jpg": "/PortifolioReact/static/media/perfilRenato.d3944ad73d2fdc0aa83f.jpg",
@@ -10,10 +10,10 @@
     "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/PortifolioReact/index.html",
     "main.64d89b90.css.map": "/PortifolioReact/static/css/main.64d89b90.css.map",
-    "main.8072b9a3.js.map": "/PortifolioReact/static/js/main.8072b9a3.js.map"
+    "main.c1ffc954.js.map": "/PortifolioReact/static/js/main.c1ffc954.js.map"
   },
   "entrypoints": [
     "static/css/main.64d89b90.css",
-    "static/js/main.8072b9a3.js"
+    "static/js/main.c1ffc954.js"
   ]
 }
