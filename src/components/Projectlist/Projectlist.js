@@ -4,10 +4,8 @@ import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
 import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
 import game from '../../Assets/game_home.png'
-import netfliximage from '../../Assets/React-App-netflix-clone.png'
-import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
-import charlespizza from '../../Assets/Charlestown-Pizza.png'
-import todolist from '../../Assets/todolist.png'
+import javaimg from '../../Assets/java_app.png'
+
 
 function Projectlist() {
   return (
@@ -37,42 +35,11 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={javaimg}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="https://react-rahul-netflix-clone.netlify.app/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={gridlinesbuilders}
-                isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={charlespizza}
-                isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={todolist}
-                isBlog={false}
-                title="To Do List"
-                description=" To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-                ghLink="https://todolist-rahul81.netlify.app/"
-
+                title="Catálogo de Filmes em Java"
+                description="Projeto desenvovido em Java usando POO, Interface e manipulação de arquivos. Trata-se de um sistema de catalogo de filmes onde o usuário poderá através da interface fazer as ações desejadas, um sistema simples graficamente mais com varias funcionalidades para você trabalhar com manipulação de dados, o sistema permite cadastrar bases de dados, adicionar filmes nessas bases, pesquisar, editar e excluir dados."
+                ghLink="https://github.com/Renato9889/CatalogoDeFilmes_JAVA"
               />
             </Col>
           </Row>

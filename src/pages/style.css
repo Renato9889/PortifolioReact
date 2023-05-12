@@ -25,7 +25,7 @@
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #191919;
+  background-color: #0b1eec;
   height: 4px !important;
   width: 28px !important;
   margin-top: 3px !important;
@@ -80,7 +80,7 @@
   padding-left: 1.5rem !important;
 }
 .navbar-nav .nav-link:hover {
-  color: #191919 !important;
+  color: #2a07ea !important;
 }
 .resumebtn {
   margin-left: 30px;
@@ -317,7 +317,7 @@
   color: #e8e8e8;
 }
 .webimage {
-  max-width: 620px;
+  max-width: 520px;
   height: 500px;
   background-image: url(../Assets/perfilRenato.jpg);
   background-size: cover;
@@ -342,7 +342,7 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #52ACFF 25%, 
+    #0084ff 35%, 
     #FFE32C 100%
   );
 }
@@ -418,7 +418,7 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #52ACFF 25%, 
+    #0084ff 35%, 
     #FFE32C 100%
   );
   padding-top: 110px;

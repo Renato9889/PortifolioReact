@@ -9,9 +9,10 @@ function Text() {
         strings: [
           "Cientista da Computação",
           "Desenvolvedor Front End",
-          "UX/IU design",
           "Cientista de Dados",
-          "Desenvolvedor mobile e web"
+          "UX/IU design",
+          "Desenvolvedor mobile e web",
+          "Desenvolvedor Full Stack"
         ],
         autoStart: true,
         loop: true,
