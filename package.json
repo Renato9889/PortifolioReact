@@ -17,13 +17,13 @@
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Renato9889/PortifolioReact",
+  "homepage": "https://Renato9889.github.io/PortifolioReact",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm start",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
