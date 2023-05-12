@@ -6,7 +6,7 @@ function Habilidades() {
     return (
         <div className='habilidadesbackground'>
             <Container>
-                <Row className='texthabilidadesbackground'>
+                <Row className='textbackgroundhabilidades'>
                     <h3 className='habilidadestext'>Habilidades</h3>
                     <ul className='skilllist'>
                             <Row>
