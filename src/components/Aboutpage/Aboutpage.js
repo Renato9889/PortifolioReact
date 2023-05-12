@@ -26,31 +26,6 @@ function Aboutpage() {
                             e assistirmos series e filmes. Amo cozinhar, andar de bicicleta e ler livros de ficção cientifica e 
                             suspense. Apaixonado por animais, cuido e crio com muito carinho de uma gatinha que foi abandonada na rua e eu adotei.
                         </p>
-                        <ul className='skilllist'>
-                            <Row>
-                                <h3>Skills</h3>
-                                <Col md={7}>
-                                    <li>Python</li>
-                                    <li>HTML5/CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>Java</li>
-                                    <li>C#</li>
-                                    <li>UX e UI design</li>
-                                    <li>Inglês Avançado</li>
-                                    <li> Exelente Lógica de programação</li>
-                                </Col>
-                                <Col md={5}>
-                                    <li>React Js</li>
-                                    <li>Mobille Flutter(Dart)</li>
-                                    <li>MySQL e SQL Sever</li>
-                                    <li>Material-ui</li>
-                                    <li>Git/Github</li>
-                                    <li>Estrutura de dados</li>
-                                    <li>Front-end e back-end</li>
-                                    <li>SO Windows e Linux</li>
-                                </Col>
-                            </Row>
-                        </ul>
                     </Col>
                     <Col md={5}>
                         <div className="webimage"></div>

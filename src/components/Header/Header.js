@@ -61,6 +61,16 @@ function Header() {
           <Nav.Item>
             <Nav.Link
               as={Link}
+              to="/habilidades"
+              onClick={() => updateExpanded(false)}
+            >
+              Habilidades
+            </Nav.Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
               to="/project"
               onClick={() => updateExpanded(false)}
             >

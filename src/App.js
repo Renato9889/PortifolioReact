@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Habilidades from './pages/Habilidades';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -60,6 +61,7 @@ function App() {
           <Routes>
             <Route path='' element={<Home />}></Route>
             <Route path='/about' element={<About />}></Route>
+            <Route path='/habilidades' element={<Habilidades />}></Route>
             <Route path='/project' element={<Project />}></Route>
             <Route path='/contact' element={<Contact />}></Route>
           </Routes>
