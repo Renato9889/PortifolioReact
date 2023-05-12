@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Renato9889/PortifolioReact/static/css/main.a99fb48c.css",
-    "main.js": "/Renato9889/PortifolioReact/static/js/main.6ff242c3.js",
-    "static/media/game_home.png": "/Renato9889/PortifolioReact/static/media/game_home.b70148d51188ec788569.png",
-    "static/media/Admin-Panel-Dashboard.png": "/Renato9889/PortifolioReact/static/media/Admin-Panel-Dashboard.19188e0c8c57c24f499c.png",
-    "static/media/perfilRenato.jpg": "/Renato9889/PortifolioReact/static/media/perfilRenato.d3944ad73d2fdc0aa83f.jpg",
-    "static/media/ot.gif": "/Renato9889/PortifolioReact/static/media/ot.fb3e51bea5b0a2cad91d.gif",
-    "static/media/java_app.png": "/Renato9889/PortifolioReact/static/media/java_app.ad09b5f3c98af693a560.png",
-    "static/media/bars.svg": "/Renato9889/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
-    "index.html": "/Renato9889/PortifolioReact/index.html",
-    "main.a99fb48c.css.map": "/Renato9889/PortifolioReact/static/css/main.a99fb48c.css.map",
-    "main.6ff242c3.js.map": "/Renato9889/PortifolioReact/static/js/main.6ff242c3.js.map"
+    "main.css": "/PortifolioReact/static/css/main.a5226d11.css",
+    "main.js": "/PortifolioReact/static/js/main.1274a57f.js",
+    "static/media/game_home.png": "/PortifolioReact/static/media/game_home.b70148d51188ec788569.png",
+    "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.19188e0c8c57c24f499c.png",
+    "static/media/perfilRenato.jpg": "/PortifolioReact/static/media/perfilRenato.d3944ad73d2fdc0aa83f.jpg",
+    "static/media/ot.gif": "/PortifolioReact/static/media/ot.fb3e51bea5b0a2cad91d.gif",
+    "static/media/java_app.png": "/PortifolioReact/static/media/java_app.ad09b5f3c98af693a560.png",
+    "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
+    "index.html": "/PortifolioReact/index.html",
+    "main.a5226d11.css.map": "/PortifolioReact/static/css/main.a5226d11.css.map",
+    "main.1274a57f.js.map": "/PortifolioReact/static/js/main.1274a57f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a99fb48c.css",
-    "static/js/main.6ff242c3.js"
+    "static/css/main.a5226d11.css",
+    "static/js/main.1274a57f.js"
   ]
 }
