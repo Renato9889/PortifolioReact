@@ -24,7 +24,7 @@ function Aboutpage() {
                         <p className='aboutdetails'> 
                             No meu tempo livre, gosto de receber meus amigos para jogarmos jogos de tabuleiro
                             e assistirmos series e filmes. Amo cozinhar, andar de bicicleta e ler livros de ficção cientifica e 
-                            suspense. Apaixonado por animais, cuido e crio com muito carinho de dois gatinhos que foi abandonada na rua e eu adotei.
+                            suspense. Apaixonado por animais, cuido e crio com muito carinho de dois gatinhos que foram abandonados na rua e eu adotei.
                         </p>
                     </Col>
                     <Col md={5}>
