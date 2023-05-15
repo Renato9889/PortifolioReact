@@ -4,6 +4,14 @@ body {
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #002aff;
+  background-image: linear-gradient(
+    43deg,
+    #0084ff 50%, 
+    #FFE32C 100%
+  );
+  background-repeat: no-repeat;
 }
 html {
   scroll-behavior: smooth;
@@ -11,7 +19,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  cursor: none;
+  
 }
 #no-scroll {
   overflow: hidden;
@@ -25,7 +33,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0d55f1;
+  background-color: #0084ff;
   background-image: url(../src/Assets/bars.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -44,27 +52,33 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0125f3cb;
+  background-color: #0084ff;
+  background-image: linear-gradient(
+    43deg,
+    #0084ff 50%, 
+    #FFE32C 100%
+  );
+  background-repeat: no-repeat;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(234, 250, 9, 0.959);
+  background: rgba(97, 90, 90, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.911);
+  background: rgba(255, 253, 253, 0.911);
   border-radius: 12px;
 }
 
 .cursor {
   background-color: #191919;
-  opacity: 0.6;
-  height: 18px;
-  width: 18px;
-  border-radius: 50%;
+  opacity: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
   position: fixed;
   top: 0;
   left: 0;

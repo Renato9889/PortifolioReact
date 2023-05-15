@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Aboutpage() {
     return (
-        <div className='aboutpagebackground'>
+        <div id='aboutoage'className='aboutpagebackground'>
             <Container>
                 <Row className='textbackground'>
                     <Col md={7} >
@@ -18,7 +18,7 @@ function Aboutpage() {
                         <p className='aboutdetails'>
                             Gosto de trabalhar em equipe, sendo para mim uma oportunidade de aprender
                             através de outras perspectivas. Sempre mantive um ótimo relacionamento com as pessoas a minha volta,
-                            aplicando sempre o respeito e empatia ao abrir espaço para ouvir e entender-las. Sou uma pessoa organizada, 
+                            aplicando sempre o respeito e empatia ao abrir espaço para ouvir e entendê-las. Sou uma pessoa organizada, 
                             com um excelente gerenciamento de tempo onde consigo executar minhas metas com eficiência. 
                         </p>
                         <p className='aboutdetails'> 

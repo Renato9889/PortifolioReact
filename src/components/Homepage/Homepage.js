@@ -11,7 +11,7 @@ import { FaLinkedinIn} from "react-icons/fa";
 
 function Home() {
   return (
-    <div className='homepagebackground'>
+    <div id ='homepage' className='homepagebackground'>
       <Container>
         <Row>
           <Col md={7}>

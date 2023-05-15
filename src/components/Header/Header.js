@@ -46,12 +46,11 @@ function Header() {
 
 
           <Nav.Item>
-            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
+            <Nav.Link  href='#homepage' onClick={() => updateExpanded(false)}> Home </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
-              as={Link}
-              to="/about"
+             href='#aboutoage'
               onClick={() => updateExpanded(false)}
             >
               Sobre Mim
@@ -60,8 +59,7 @@ function Header() {
 
           <Nav.Item>
             <Nav.Link
-              as={Link}
-              to="/habilidades"
+              href='#habilidadespage'
               onClick={() => updateExpanded(false)}
             >
               Habilidades
@@ -70,8 +68,7 @@ function Header() {
 
           <Nav.Item>
             <Nav.Link
-              as={Link}
-              to="/project"
+              href='#projectpage'
               onClick={() => updateExpanded(false)}
             >
               Projetos
@@ -80,8 +77,7 @@ function Header() {
 
           <Nav.Item>
             <Nav.Link
-              as={Link}
-              to="/contact"
+              href='#contactpage'
               onClick={() => updateExpanded(false)}
             >
               Contato
@@ -90,7 +86,7 @@ function Header() {
 
           <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1NdlCR6JRMJOAnhfjDzFE-hjgmhDxaW3R/view");
+              window.open("https://drive.google.com/file/d/1jUzEcdlPXfnFmzwJBbFYipeMXwO4679M/view?usp=sharing");
             }}
             className='resumebtn'><span>Curriculum</span>
           </Button>

@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Habilidades() {
     return (
-        <div className='habilidadesbackground'>
+        <div id='habilidadespage' className='habilidadesbackground'>
             <Container>
                 <Row className='textbackgroundhabilidades'>
                     <h3 className='habilidadestext'>Habilidades</h3>
