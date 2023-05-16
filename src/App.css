@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-
 body {
-  font-family: "Raleway", serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -42,10 +40,6 @@ html {
   opacity: 0;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
-
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -61,27 +55,19 @@ html {
   background-repeat: no-repeat;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(97, 90, 90, 0.959);
   border-radius: 12px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 253, 253, 0.911);
   border-radius: 12px;
 }
 
 .cursor {
-  background-color: #191919;
-  opacity: 0;
-  height: 15px;
-  width: 15px;
   border-radius: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
 }
 
 @media (max-width: 767px) {
