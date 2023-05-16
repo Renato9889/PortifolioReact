@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PortifolioReact/static/css/main.b0257604.css",
+    "main.js": "/PortifolioReact/static/js/main.fc223067.js",
+    "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.19188e0c8c57c24f499c.png",
+    "static/media/game_home.png": "/PortifolioReact/static/media/game_home.9f4dbe5dc7dcec499a33.png",
+    "static/media/perfilRenato.jpg": "/PortifolioReact/static/media/perfilRenato.6de5ba2094db69483715.jpg",
+    "static/media/ot.gif": "/PortifolioReact/static/media/ot.fb3e51bea5b0a2cad91d.gif",
+    "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
+    "index.html": "/PortifolioReact/index.html",
+    "main.b0257604.css.map": "/PortifolioReact/static/css/main.b0257604.css.map",
+    "main.fc223067.js.map": "/PortifolioReact/static/js/main.fc223067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0257604.css",
+    "static/js/main.fc223067.js"
+  ]
+}
