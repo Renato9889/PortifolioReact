@@ -9,7 +9,7 @@ function Aboutpage() {
             <Container>
                 <Row className='textbackground'>
                     <Col md={7} >
-                        <h3 className='aboutmetext'>Sobre<span> Mim</span></h3>
+                        <h3 className='aboutmetext'>Sobre Mim</h3>
                         <p className='aboutdetails'>
                             Sou bacharel em Ciência da Computação pela Universidade Federal do Tocantins e sempre fui uma pessoa apaixonada
                             por tecnologia. Motivado pela curiosidade e criatividade, busco sempre aprender e a criar soluções inovadoras

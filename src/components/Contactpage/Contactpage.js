@@ -14,7 +14,7 @@ function Contactpage() {
           aberto para aprender cada dia mais e disposto a superar qualquer dificuldade.
           Se houver alguma vaga, minha caixa de mensagem estará sempre aberta. Se 
             você tiver mais alguma dúvida ou apenas quizer dizer olá, 
-           farei o possível para entrar em contato com voçê!</p>
+           farei o possível para entrar em contato com você!</p>
         <button
           className='contactbtn'
           onClick={() => {

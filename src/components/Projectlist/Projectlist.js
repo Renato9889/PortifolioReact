@@ -18,7 +18,7 @@ function Projectlist() {
                 imgPath={useradminpanel}
                 isBlog={false}
                 title="Cotação e Câmbio de Moedas Usando Python, API, Interface e POO"
-                description="Projeto feito por mim que teve como finalidade aplicar conhecimentos de Python, API, interface gráfica e programação orientada a objetos. A aplicação é uma ferramenta que faz a cotação e câmbio entre moedas do mundo todo, ela exibe as informações de cotação, valor de compra, valor de venda, variação, porcentagem de variação, máximo e mínimo."
+                description="Projeto feito por mim que teve como finalidade aplicar conhecimentos de Python, API, interface gráfica e POO. A aplicação é uma ferramenta que faz a cotação e câmbio entre moedas do mundo todo, ela exibe as informações de cotação, valor de compra, valor de venda, variação, porcentagem de variação, máximo e mínimo."
                 ghLink="https://github.com/Renato9889/CotacaoCambioDeMoedasUsandoAPIePOO"
               />
             </Col>
