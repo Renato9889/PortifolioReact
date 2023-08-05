@@ -5,11 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
 import game from '../../Assets/game_home.png'
 import javaimg from '../../Assets/java_app.png'
-
+import django from '../../Assets/encyclopidia.png'
 
 function Projectlist() {
   return (
     <div id='projectpage' className="projectbackground">
+      <h1>Projetos</h1>
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -40,6 +41,15 @@ function Projectlist() {
                 title="Catálogo de Filmes em Java"
                 description="Projeto desenvovido em Java usando POO, Interface e manipulação de arquivos. Trata-se de um sistema de catalogo de filmes onde o usuário poderá através da interface fazer as ações desejadas, um sistema simples graficamente mas com ,uitas funcionalidades para você trabalhar com manipulação de dados, o sistema permite cadastrar bases de dados, adicionar filmes nessas bases, pesquisar, editar e excluir dados."
                 ghLink="https://github.com/Renato9889/CatalogoDeFilmes_JAVA"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={django}
+                isBlog={false}
+                title="Encyclopedia in DJango"
+                description="Encyclopedia project developed in Django for Harvard University's Python and JavaScript web programming course. This project is an online encyclopedia similar to Wikipedia, where the user is able to search and create pages, in addition to being able to use several other features, such as displaying random pages, viewing all available pages and editing them."
+                ghLink="https://github.com/Renato9889/project1"
               />
             </Col>
           </Row>
