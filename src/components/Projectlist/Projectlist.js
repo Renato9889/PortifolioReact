@@ -6,13 +6,14 @@ import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
 import game from '../../Assets/game_home.png'
 import javaimg from '../../Assets/java_app.png'
 import django from '../../Assets/encyclopidia.png'
+import pibic from '../../Assets/pibic.png'
 
 function Projectlist() {
   return (
     <div id='projectpage' className="projectbackground">
-      <h1>Projetos</h1>
       <Container fluid className="project-section">
         <Container>
+        <h className='projectext'>Projetos</h>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
@@ -50,6 +51,15 @@ function Projectlist() {
                 title="Encyclopedia in DJango"
                 description="Encyclopedia project developed in Django for Harvard University's Python and JavaScript web programming course. This project is an online encyclopedia similar to Wikipedia, where the user is able to search and create pages, in addition to being able to use several other features, such as displaying random pages, viewing all available pages and editing them."
                 ghLink="https://github.com/Renato9889/project1"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={pibic}
+                isBlog={false}
+                title="ANÁLISE COMPUTACIONAL DE DADOS DE RECURSOS HÍDRICOS DO ESTADO DO TOCANTINS"
+                description="Este trabalho busca analisar computacionalmente os dados de vazão e chuva das estações Telemétricas e Convencionais localizadas na Bacia do Rio Formoso, com o intuito de identificar os fatores que vem contribuindo com os problemas de escassez hídrica enfrentados na bacia nos últimos anos."
+                ghLink="https://www.even3.com.br/anais/sicuft/288953-analise-computacional-de-dados-de-recursos-hidricos-do-estado-do-tocantins/"
               />
             </Col>
           </Row>
