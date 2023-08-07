@@ -13,7 +13,7 @@ function Projectlist() {
     <div id='projectpage' className="projectbackground">
       <Container fluid className="project-section">
         <Container>
-        <h className='projectext'>Projetos</h>
+        <h className='projectext'>PROJETOS</h>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard

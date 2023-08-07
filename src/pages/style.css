@@ -249,9 +249,10 @@
 
 /* SobreMimPage style */
 .aboutpagebackground {
-  padding-top: 130px;
+  display: flex;
+  padding-top: 110px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-right: 1%;
   padding-left: 1%;
 }
@@ -276,19 +277,9 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
-.aboutmetext span:hover {
-  display: inline-block;
-  transition: all 500ms;
-  color: #fff;
-  animation: vibrate 30ms linear infinite forwards;
-}
-@keyframes vibrate {
-  0% {
-    transform: translateX(-1px) translateY(1px);
-  }
-  100% {
-    transform: translateX(1px) translateY(-2px);
-  }
+p{
+  margin-bottom: 1px;
+  text-indent: 30px;
 }
 .webimage {
   max-width: 520px;
@@ -311,30 +302,30 @@
 /* Projetos pagina style */
 
 .projectext{
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 2em ;
+  position:relative;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  top: 70px;
+  width: 100%;
+  height: 50%;
+  font-size: 2em;
   color: #191919;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 10px 600px;
   background-color: #eef2f5;
   border-radius: 10px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-
-.projectbackground {
+.projectbackground { 
+  display: flex;
   width: 100%;
-  height: 100%;
-  padding-top: 10px;
+  padding-right: 1%;
+  padding-left: 1%;
 }
 .project-section {
-  position: relative;
-  padding-top: 100px;
+  position:relative;
+  padding-top: 40px;
 }
 .project-card {
   padding-top: 10px;
@@ -396,25 +387,9 @@
     padding-top: 120px;
   }
   .projectext{
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 2em ;
-    color: #191919;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 10px 150px;
-    background-color: #eef2f5;
-    border-radius: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  }
-  
+    top: 10px;
+  } 
   .projectbackground {
-    width: 100%;
-    height: 100%;
     padding-top: 10px;
   }
 }
@@ -422,7 +397,7 @@
 /* Contato Style */
 .contactbackground {
   width: 100%;
-  height: 120vh;
+  height: 120%;
   padding-top: 100px;
 }
 .contacthead {
@@ -479,17 +454,17 @@
 
 /* Habilidades Style */
 .habilidadesbackground {
-  width: 100%;
-  height: 100vh;
-  padding-top: 105px;
-  padding-left: 3%;
-
-}
-.textbackgroundhabilidades{
-  text-align: justify;
+  display:flex;
   width: 100%;
   height: 100%;
-  padding: 1rem 1rem 1rem 5rem;
+  padding-top: 100px;
+  padding-left: 1%;
+}
+.textbackgroundhabilidades{
+  display: flex;
+  width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  height: 100%;
   background-color: #eef2f5;
   border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -502,19 +477,8 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
-.habilidadestext span:hover {
-  display: inline-block;
-  transition: all 500ms;
-  color: #1289de;
-  animation: vibrate 30ms linear infinite forwards;
-}
 @media (max-width: 767px) {
   .habilidadesbackground {
-    width: 100%;
-    height: 100%;
     padding-left: 6%;
-  }
-  .textbackgroundhabilidades {
-    padding: 1rem 1rem 1rem 1rem;
   }
 }
