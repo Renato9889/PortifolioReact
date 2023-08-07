@@ -11,20 +11,30 @@ function Aboutpage() {
                     <Col md={7} >
                         <h3 className='aboutmetext'>Sobre Mim</h3>
                         <p className='aboutdetails'>
-                            Sou bacharel em Ciência da Computação pela Universidade Federal do Tocantins e sempre fui uma pessoa apaixonada
-                            por tecnologia. Motivado pela curiosidade e criatividade, busco sempre aprender e a criar soluções inovadoras
-                            para os problemas que enfrento. 
+                        Bacharel em Ciência da Computação pela Universidade Federal do Tocantins, 
+                        sempre fui uma pessoa apaixonada por tecnologia e motivada pela curiosidade 
+                        e criatividade. Busco sempre aprender e a criar soluções inovadoras para os problemas 
+                        que enfrento. Sou organizado e tenho um ótimo gerenciamento de tempo, o que me permite 
+                        ter sucesso em alcançar metas estabelecidas. 
                         </p>
                         <p className='aboutdetails'>
-                            Gosto de trabalhar em equipe, sendo para mim uma oportunidade de aprender
-                            através de outras perspectivas. Sempre mantive um ótimo relacionamento com as pessoas a minha volta,
-                            aplicando sempre o respeito e empatia ao abrir espaço para ouvir e entendê-las. Sou uma pessoa organizada, 
-                            com um excelente gerenciamento de tempo onde consigo executar minhas metas com eficiência. 
+                        Com um domínio abrangente em programação, conquistado ao longo de experiências profissionais, 
+                        dentro de sala de aula e na realização de projetos pessoais, tenho foco em especial em duas 
+                        áreas especificas: a primeira delas é Front-end, que engloba aspectos de UX/UI designer 
+                        e desenvolvimento de soluções web e mobile. A segunda é a Ciência de Dados, onde possuo 
+                        conhecimentos sólidos em mineração de dados e inteligência artificial. 
                         </p>
                         <p className='aboutdetails'> 
-                            No meu tempo livre, gosto de receber meus amigos para jogarmos jogos de tabuleiro
-                            e assistirmos series e filmes. Amo cozinhar, andar de bicicleta e ler livros de ficção cientifica e 
-                            suspense. Apaixonado por animais, cuido e crio com muito carinho de dois gatinhos que foram abandonados na rua e eu adotei.
+                        Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que 
+                        colaborar proporciona a oportunidade de aprender através de diversas perspectivas. Minha habilidade 
+                        de cultivar relacionamentos positivos se reflete na maneira como trato as pessoas ao meu redor, 
+                        sempre priorizando o respeito e a empatia. 
+                        </p>
+                        <p className='aboutdetails'> 
+                        Além dos meus interesses técnicos, mantenho um compromisso com questões ambientais, 
+                        integrando conscientemente essa abordagem em meus objetivos. Nos meus momentos de lazer, adoro receber 
+                        amigos para jogos de tabuleiro, assistir series e filmes. Meus principais hobbies são, explorar a culinária,
+                         me aventurar em trilhas de bicicleta e mergulhar em livros de ficção cientifica e fantasia. 
                         </p>
                     </Col>
                     <Col md={5}>
