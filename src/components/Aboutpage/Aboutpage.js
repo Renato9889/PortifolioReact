@@ -18,11 +18,9 @@ function Aboutpage() {
                         ter sucesso em alcançar metas estabelecidas. 
                         </p>
                         <p className='aboutdetails'>
-                        Com um domínio abrangente em programação, conquistado ao longo de experiências profissionais, 
-                        dentro de sala de aula e na realização de projetos pessoais, tenho foco em especial em duas 
-                        áreas especificas: a primeira delas é Front-end, que engloba aspectos de UX/UI designer 
-                        e desenvolvimento de soluções web e mobile. A segunda é a Ciência de Dados, onde possuo 
-                        conhecimentos sólidos em mineração de dados e inteligência artificial. 
+                        Em busca de crescimento profissional, carrego comigo o desejo de desenvolver minhas habilidades e me destacar como um 
+                        profissional de excelência. Tenho experiências em desenvolvimento web usando os frameworks React e Django,
+                         o que possibilitou desenvolver minhas habilidades em design UX/UI e na criação de interfaces inteligentes e interativas de alta qualidade. 
                         </p>
                         <p className='aboutdetails'> 
                         Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que 

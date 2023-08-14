@@ -10,8 +10,7 @@ function Contactpage() {
         <p className='contactpara'>  
         Busco oportunidade de emprego após minha graduação em Ciência da Computação 
         onde eu possa aplicar meus conhecimentos e habilidades para contribuir de maneira
-         significativa para projetos desafiadores. Tenho interesse particular nas áreas de Front-End 
-         e Ciência de Dados, nas quais desenvolvi proficiência ao longo do tempo. Empenhado em ser um profissional
+         significativa para projetos desafiadores. Empenhado em ser um profissional
           exemplar, estou constantemente em busca de aprender e aprimorar minhas habilidades. Para mim, desafios
            são oportunidades de crescimento e estou sempre disposto a superar quaisquer dificuldades que surjam
             no caminho.
