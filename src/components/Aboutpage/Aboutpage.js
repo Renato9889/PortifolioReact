@@ -21,10 +21,9 @@ function Aboutpage() {
                         Em busca de crescimento profissional, carrego comigo o desejo de desenvolver minhas habilidades e me destacar como um 
                         profissional de excelência. Tenho experiências em desenvolvimento web usando os frameworks React e Django,
                          o que possibilitou desenvolver minhas habilidades em design UX/UI e na criação de interfaces inteligentes e interativas de alta qualidade. Também carrego experiências em Ciência de Dados,
-                          onde trabalhei um ano e dois meses em um projeto que constituiu na realização da mineração dos dados hidrográficos do 
-                          Tocantins em busca de conhecimento, realizei todos os processos do KDD, da limpeza a aplicação dos algoritmos de 
-                          inteligência artificial da mineração. Após essa experiência, no meu projeto de graduação, voltei a trabalhar com ciência de dados, 
-                          agora na exploração de dados de covid-19. 
+                        trabalhei um ano e dois meses em um projeto que constituiu na realização da mineração dos dados hidrográficos do 
+                          Tocantins em busca de conhecimento, depois voltei a trabalhar com ciência de dados, 
+                          na exploração de dados de covid-19. 
 
                         </p>
                         <p className='aboutdetails'> 
