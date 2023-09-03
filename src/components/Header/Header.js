@@ -86,7 +86,7 @@ function Header() {
 
           <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1MbRPSkZgQ21socnBdq0MOEM9mUo8xMQZ/view?usp=sharing");
+              window.open("https://drive.google.com/file/d/1JHF3WC65Eh_qL_JsTPoebkDAkGuK-H9U/view?usp=sharing");
             }}
             className='resumebtn'><span>Curriculum</span>
           </Button>

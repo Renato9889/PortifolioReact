@@ -9,7 +9,7 @@ function Text() {
         strings: [
           "Cientista da Computação",
           "Desenvolvedor Front End Junior",
-          "Cientista de Dados",
+          "Ciência de Dados",
           "UX/IU design",
           "Desenvolvedor mobile e web"
         ],
