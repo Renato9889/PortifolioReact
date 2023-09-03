@@ -7,6 +7,8 @@ import game from '../../Assets/game_home.png'
 import javaimg from '../../Assets/java_app.png'
 import django from '../../Assets/encyclopidia.png'
 import pibic from '../../Assets/pibic.png'
+import django2 from '../../Assets/commerce.png
+
 
 function Projectlist() {
   return (
@@ -64,7 +66,7 @@ function Projectlist() {
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={pibic}
+                imgPath={django2}
                 isBlog={false}
                 title="E-COMMERCE Django"
                 description="Design of an e-commerce auction site that allowed users to post auction listings, bid on listings, comment on those listings, and add listings to a “watchlist”"
