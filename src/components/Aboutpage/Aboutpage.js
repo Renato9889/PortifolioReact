@@ -23,20 +23,13 @@ function Aboutpage() {
                          o que possibilitou desenvolver minhas habilidades em design UX/UI e na criação de interfaces inteligentes e interativas de alta qualidade. Também carrego experiências em Ciência de Dados,
                         trabalhei um ano e dois meses em um projeto que constituiu na realização da mineração dos dados hidrográficos do 
                           Tocantins em busca de conhecimento, depois voltei a trabalhar com ciência de dados, 
-                          na exploração de dados de covid-19. 
-
+                          na exploração de dados de covid-19.
                         </p>
                         <p className='aboutdetails'> 
                         Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que 
                         colaborar proporciona a oportunidade de aprender através de diversas perspectivas. Minha habilidade 
                         de cultivar relacionamentos positivos se reflete na maneira como trato as pessoas ao meu redor, 
                         sempre priorizando o respeito e a empatia. 
-                        </p>
-                        <p className='aboutdetails'> 
-                        Além dos meus interesses técnicos, mantenho um compromisso com questões ambientais, 
-                        integrando conscientemente essa abordagem em meus objetivos. Nos meus momentos de lazer, adoro receber 
-                        amigos para jogos de tabuleiro, assistir series e filmes. Meus principais hobbies são, explorar a culinária,
-                         me aventurar em trilhas de bicicleta e mergulhar em livros de ficção cientifica e fantasia. 
                         </p>
                     </Col>
                     <Col md={5}>
