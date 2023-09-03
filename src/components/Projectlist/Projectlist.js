@@ -7,7 +7,7 @@ import game from '../../Assets/game_home.png'
 import javaimg from '../../Assets/java_app.png'
 import django from '../../Assets/encyclopidia.png'
 import pibic from '../../Assets/pibic.png'
-import django2 from '../../Assets/commerce.png
+import django2 from '../../Assets/commerce.png'
 
 
 function Projectlist() {
