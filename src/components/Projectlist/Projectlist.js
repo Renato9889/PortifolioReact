@@ -62,6 +62,15 @@ function Projectlist() {
                 ghLink="https://www.even3.com.br/anais/sicuft/288953-analise-computacional-de-dados-de-recursos-hidricos-do-estado-do-tocantins/"
               />
             </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={pibic}
+                isBlog={false}
+                title="E-COMMERCE Django"
+                description="Design of an e-commerce auction site that allowed users to post auction listings, bid on listings, comment on those listings, and add listings to a “watchlist”"
+                ghLink="https://github.com/Renato9889/commerce"
+              />
+            </Col>
           </Row>
         </Container>
       </Container>
