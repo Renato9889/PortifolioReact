@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/PortifolioReact/static/css/main.506bb0e7.css",
-    "main.js": "/PortifolioReact/static/js/main.467ac922.js",
+    "main.js": "/PortifolioReact/static/js/main.442ff9e7.js",
     "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.2abd7991aa1489baff35.png",
     "static/media/pibic.png": "/PortifolioReact/static/media/pibic.b76c649ccdf292f69e7c.png",
     "static/media/commerce.png": "/PortifolioReact/static/media/commerce.a4a73d3a6bfe6ba206f8.png",
     "static/media/game_home.png": "/PortifolioReact/static/media/game_home.9f4dbe5dc7dcec499a33.png",
     "static/media/perfilRenato.jpg": "/PortifolioReact/static/media/perfilRenato.6de5ba2094db69483715.jpg",
+    "static/media/mail.png": "/PortifolioReact/static/media/mail.d810eca4e9031c4c4528.png",
     "static/media/encyclopidia.png": "/PortifolioReact/static/media/encyclopidia.4bd9a6b82fa28d4ca6d0.png",
     "static/media/ot.gif": "/PortifolioReact/static/media/ot.fb3e51bea5b0a2cad91d.gif",
     "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/PortifolioReact/index.html",
     "main.506bb0e7.css.map": "/PortifolioReact/static/css/main.506bb0e7.css.map",
-    "main.467ac922.js.map": "/PortifolioReact/static/js/main.467ac922.js.map"
+    "main.442ff9e7.js.map": "/PortifolioReact/static/js/main.442ff9e7.js.map"
   },
   "entrypoints": [
     "static/css/main.506bb0e7.css",
-    "static/js/main.467ac922.js"
+    "static/js/main.442ff9e7.js"
   ]
 }
