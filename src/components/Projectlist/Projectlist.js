@@ -8,7 +8,7 @@ import javaimg from '../../Assets/java_app.png'
 import django from '../../Assets/encyclopidia.png'
 import pibic from '../../Assets/pibic.png'
 import django2 from '../../Assets/commerce.png'
-
+import mail from '../../Assets/mail.png'
 
 function Projectlist() {
   return (
@@ -71,6 +71,15 @@ function Projectlist() {
                 title="E-COMMERCE Django"
                 description="Design of an e-commerce auction site that allowed users to post auction listings, bid on listings, comment on those listings, and add listings to a “watchlist”"
                 ghLink="https://github.com/Renato9889/commerce"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={mail}
+                isBlog={false}
+                title="E-Mail feito com JavaScript e usando Api"
+                description="Este projeto é um design front-end para um cliente de email que faz chamadas de API para enviar e receber emails, com foco em JavaScript e APIs."
+                ghLink="https://github.com/Renato9889/mail"
               />
             </Col>
           </Row>
