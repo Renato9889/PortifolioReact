@@ -20,7 +20,7 @@ function Aboutpage() {
                         <p className='aboutdetails'>
                         Em busca de crescimento profissional, carrego comigo o desejo de desenvolver minhas habilidades e me destacar como um 
                         profissional de excelência. Tenho experiências em desenvolvimento web usando os frameworks React e Django,
-                         o que possibilitou desenvolver minhas habilidades em design UX/UI e na criação de interfaces inteligentes e interativas de alta qualidade. Também carrego experiências em Ciência de Dados,
+                         o que possibilitou desenvolver minhas habilidades em design UX/UI, modelagem de banco de dados, algoritmos otimizados e na criação de interfaces inteligentes e interativas de alta qualidade. Também carrego experiências em Ciência de Dados,
                         trabalhei um ano e dois meses em um projeto que constituiu na realização da mineração dos dados hidrográficos do 
                           Tocantins em busca de conhecimento, depois voltei a trabalhar com ciência de dados, 
                           na exploração de dados de covid-19.
