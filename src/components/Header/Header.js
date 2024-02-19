@@ -86,9 +86,9 @@ function Header() {
 
           <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1JHF3WC65Eh_qL_JsTPoebkDAkGuK-H9U/view?usp=sharing");
+              window.open("https://drive.google.com/file/d/17iChmjLjjhkD4Ns0U_Uz_V-WWX2pZko1/view?usp=sharing");
             }}
-            className='resumebtn'><span>Curriculum</span>
+            className='resumebtn'><span>Currículo</span>
           </Button>
         </Nav>
       </Navbar.Collapse>

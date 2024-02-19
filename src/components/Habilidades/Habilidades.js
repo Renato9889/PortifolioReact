@@ -6,8 +6,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
-import {DiPython,DiHtml5,DiCss3,DiJavascript,DiJava, DiReact, DiMysql, DiMsqlServer, DiDjango, DiDart, DiGit, DiGithubBadge, DiWindows, DiLinux, DiPostgresql} from 'react-icons/di'
-import {SiCsharp, SiFigma, SiFlutter,SiMicrosoftoffice,SiMaterialdesign, SiTrello} from 'react-icons/si'
+import {DiPython,DiHtml5,DiCss3,DiJavascript,DiJava, DiReact, DiMysql, DiDjango, DiDart, DiGit, DiGithubBadge, DiWindows, DiLinux, DiPostgresql} from 'react-icons/di'
+import {SiCsharp, SiSpringboot, SiFigma, SiFlutter,SiMicrosoftoffice,SiMaterialdesign, SiTrello} from 'react-icons/si'
 import {SlBulb, SlGrid,SlPlane,SlPuzzle,SlMagnifier} from 'react-icons/sl'
 import {CgListTree} from 'react-icons/cg'
 import {GiTalk} from 'react-icons/gi'
@@ -100,17 +100,18 @@ function Habilidades() {
                                     <ListItemAvatar>
                                     <Avatar>
                                         <DiMysql/>
+                                        <DiPostgresql/>
                                     </Avatar>
                                     </ListItemAvatar>
-                                    <ListItemText primary="SQL/MySQL" />
+                                    <ListItemText primary="SQL/MySQL - PostgreSQL" />
                                 </ListItem>
                                 <ListItem>
                                     <ListItemAvatar>
                                     <Avatar>
-                                        <DiPostgresql/>
+                                        <SiSpringboot/>
                                     </Avatar>
                                     </ListItemAvatar>
-                                    <ListItemText primary="SQL/PostgreSQL" />
+                                    <ListItemText primary="Spring Boot" />
                                 </ListItem>
                                 <ListItem>
                                     <ListItemAvatar>

@@ -8,15 +8,12 @@ function Contactpage() {
       <Container>
         <h2 className='contacthead'>Entrar em contato</h2>
         <p className='contactpara'>  
-        Busco oportunidade de emprego após minha graduação em Ciência da Computação 
-        onde eu possa aplicar meus conhecimentos e habilidades para contribuir de maneira
-         significativa para projetos desafiadores. Empenhado em ser um profissional
-          exemplar, estou constantemente em busca de aprender e aprimorar minhas habilidades. Para mim, desafios
-           são oportunidades de crescimento e estou sempre disposto a superar quaisquer dificuldades que surjam
-            no caminho.
-          Se houver alguma vaga, minha caixa de mensagem estará sempre aberta. Se 
-            você tiver mais alguma dúvida ou apenas quizer dizer olá, 
-           farei o possível para entrar em contato com você!</p>
+        Atualmente, estou comprometido com minha função como Analista em Tecnologia da Informação na Gerência de Sistemas da Secretaria de Educação do Estado do Tocantins (SEDUC).
+         No entanto, gostaria de ressaltar que estou aberto a propostas de trabalho que possam agregar valor à minha trajetória profissional. 
+         Mesmo enquanto me dedico integralmente às minhas responsabilidades atuais, estou disponível para explorar oportunidades que possam alinhar-se com meus objetivos e habilidades. 
+         Minha caixa de mensagens está sempre aberta para discussões e possíveis colaborações. 
+         Se houver uma oportunidade que possa ser interessante para ambas as partes, ficarei feliz em considerá-la.
+       </p>
         <button
           className='contactbtn'
           onClick={() => {
@@ -30,4 +27,4 @@ function Contactpage() {
   )
 }
 
-export default Contactpage
+export default Contactpage;

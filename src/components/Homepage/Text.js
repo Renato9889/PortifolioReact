@@ -8,7 +8,7 @@ function Text() {
       options={{
         strings: [
           "Cientista da Computação",
-          "Desenvolvedor Full Stack Junior",
+          "Desenvolvedor Full Stack",
           "Ciência de Dados",
           "UX/IU design",
           "Desenvolvedor mobile e web"

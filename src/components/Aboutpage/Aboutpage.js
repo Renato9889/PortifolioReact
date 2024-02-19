@@ -11,25 +11,21 @@ function Aboutpage() {
                     <Col md={7} >
                         <h3 className='aboutmetext'>Sobre Mim</h3>
                         <p className='aboutdetails'>
-                        Bacharel em Ciência da Computação pela Universidade Federal do Tocantins, 
-                        sempre fui uma pessoa apaixonada por tecnologia e motivada pela curiosidade 
-                        e criatividade. Busco sempre aprender e a criar soluções inovadoras para os problemas 
-                        que enfrento. Sou organizado e tenho um ótimo gerenciamento de tempo, o que me permite 
-                        ter sucesso em alcançar metas estabelecidas. 
+                        Bacharel em Ciência da Computação pela Universidade Federal do Tocantins, sempre fui uma pessoa apaixonada por tecnologia e motivada pela curiosidade e criatividade. Proativo, 
+                        busco sempre aprender e a criar soluções inovadoras para os problemas que enfrento. Sou organizado e 
+                        tenho um ótimo gerenciamento de tempo, o que me permite ter sucesso em alcançar metas estabelecidas. 
                         </p>
                         <p className='aboutdetails'>
-                        Em busca de crescimento profissional, carrego comigo o desejo de desenvolver minhas habilidades e me destacar como um 
-                        profissional de excelência. Tenho experiências em desenvolvimento web usando os frameworks React e Django,
-                         o que possibilitou desenvolver minhas habilidades em design UX/UI, modelagem de banco de dados, algoritmos otimizados e na criação de interfaces inteligentes e interativas de alta qualidade. Também carrego experiências em Ciência de Dados,
-                        trabalhei um ano e dois meses em um projeto que constituiu na realização da mineração dos dados hidrográficos do 
-                          Tocantins em busca de conhecimento, depois voltei a trabalhar com ciência de dados, 
-                          na exploração de dados de covid-19.
+                        Com um domínio abrangente em programação, conquistado ao longo de experiências profissionais, 
+                        dentro de sala de aula e na realização de projetos pessoais, tenho foco em especial em 
+                        desenvolvimento FullStack, que engloba aspectos de UX/UI designer, modelagem de banco de dados, 
+                        desenvolvimento de backend e criação de soluções web e mobile inteligentes.
                         </p>
                         <p className='aboutdetails'> 
-                        Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que 
-                        colaborar proporciona a oportunidade de aprender através de diversas perspectivas. Minha habilidade 
-                        de cultivar relacionamentos positivos se reflete na maneira como trato as pessoas ao meu redor, 
-                        sempre priorizando o respeito e a empatia. 
+                        Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que colaborar 
+                        proporciona a oportunidade de aprender através de diversas perspectivas. Minha habilidade de cultivar 
+                        relacionamentos positivos se reflete na maneira como trato as pessoas ao meu redor, sempre priorizando 
+                        o respeito e a empatia. 
                         </p>
                     </Col>
                     <Col md={5}>
@@ -41,4 +37,4 @@ function Aboutpage() {
     )
 }
 
-export default Aboutpage
+export default Aboutpage;
