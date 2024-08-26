@@ -2,15 +2,19 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  background-color: #002aff;
+
+  background-color: #007BFF;
   background-image: linear-gradient(
-    43deg,
-    #0084ff 50%, 
-    #FFE32C 100%
+    135deg,
+    #1A73E8 10%,
+    #3E8EF7 40%,
+    #007BFF 70%,
+    #005BB5 100%
   );
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -48,9 +52,11 @@ html {
 ::-webkit-scrollbar-track {
   background-color: #0084ff;
   background-image: linear-gradient(
-    43deg,
-    #0084ff 50%, 
-    #FFE32C 100%
+    135deg,
+    #1A73E8 10%,
+    #3E8EF7 40%,
+    #007BFF 70%,
+    #005BB5 100%
   );
   background-repeat: no-repeat;
 }

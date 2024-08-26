@@ -24,7 +24,7 @@
 
 .navbar-toggler span {
   display: block;
-  background-color: #0084ff;
+  background-color: #cce1ff;
   height: 4px;
   width: 28px;
   margin-top: 3px;
@@ -79,14 +79,14 @@
   padding-left: 1.5rem;
 }
 .navbar-nav .nav-link:hover {
-  color: #2a07ea;
+  color: #c8d0fe;
 }
 .resumebtn {
   margin-left: 30px;
   border-radius: 25px;
   padding: 0 25px;
-  background-color: #0084ff;
-  background-image: linear-gradient(43deg, #0084ff 100%0%, #FFE32C 25%);
+  background-color: #ffffff;
+  background-image: linear-gradient(#0084ff 100%0%, #ffbc2c 25%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
 }
@@ -105,9 +105,11 @@
     border-radius: 10px;
     background-color: #0a1235;
     background-image: linear-gradient(
-      43deg,
-      #52ACFF 25%, 
-      #FFE32C 100%0%
+      135deg,
+      #1A73E8 10%,
+      #3E8EF7 40%,
+      #007BFF 70%,
+      #005BB5 100%
     );
   }
   .nav-link {
@@ -193,7 +195,7 @@
   margin-top: 50px;
   max-width: 550px;
   height: 500px;
-  background-image: url(../Assets/ot.gif);
+  background-image: url(../Assets/renato.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -422,11 +424,14 @@ p{
   width: 150px;
   height: 50px;
   border: solid 2px;
-  background-color: transparent;
+  background-color: #0004ff;
   letter-spacing: 2px;
+  color: white;
+  border-color: #0004ff;
 }
 .contactbtn:hover {
-  background-color: rgba(51, 51, 51, 0.2);
+  border-color: #000000;
+  background-color: #144cf6;
 }
 .line {
   margin-top: 11rem;

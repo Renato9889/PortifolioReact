@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortifolioReact/static/css/main.506bb0e7.css",
-    "main.js": "/PortifolioReact/static/js/main.8ebc4a7b.js",
+    "main.css": "/PortifolioReact/static/css/main.d4bf6c39.css",
+    "main.js": "/PortifolioReact/static/js/main.9f211fac.js",
     "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.2abd7991aa1489baff35.png",
     "static/media/pibic.png": "/PortifolioReact/static/media/pibic.b76c649ccdf292f69e7c.png",
     "static/media/commerce.png": "/PortifolioReact/static/media/commerce.a4a73d3a6bfe6ba206f8.png",
@@ -12,11 +12,11 @@
     "static/media/ot.gif": "/PortifolioReact/static/media/ot.fb3e51bea5b0a2cad91d.gif",
     "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/PortifolioReact/index.html",
-    "main.506bb0e7.css.map": "/PortifolioReact/static/css/main.506bb0e7.css.map",
-    "main.8ebc4a7b.js.map": "/PortifolioReact/static/js/main.8ebc4a7b.js.map"
+    "main.d4bf6c39.css.map": "/PortifolioReact/static/css/main.d4bf6c39.css.map",
+    "main.9f211fac.js.map": "/PortifolioReact/static/js/main.9f211fac.js.map"
   },
   "entrypoints": [
-    "static/css/main.506bb0e7.css",
-    "static/js/main.8ebc4a7b.js"
+    "static/css/main.d4bf6c39.css",
+    "static/js/main.9f211fac.js"
   ]
 }
