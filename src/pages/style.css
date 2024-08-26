@@ -303,98 +303,64 @@ p{
 
 /* Projetos pagina style */
 
-.projectext{
-  position:relative;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  top: 70px;
-  width: 100%;
-  height: 50%;
-  font-size: 2em;
+.project-container {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  margin-top: 50px;
+}
+
+.projectext {
+  font-size: 2.0em;
   color: #191919;
   font-weight: 600;
   letter-spacing: 1px;
-  background-color: #eef2f5;
-  border-radius: 10px;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.projectbackground { 
-  display: flex;
-  width: 100%;
-  padding-right: 1%;
-  padding-left: 1%;
-}
-.project-section {
-  position:relative;
-  padding-top: 40px;
-}
+
 .project-card {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .project-card-view {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  color: #191919;
-  background-color: #eef2f5;
-  border: transparent;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s;
-  height: 100%;
+  background-color: #e6f2ff;
+  border: none;
+  opacity: 0.95 !important;
+  transition: all 0.3s ease;
   border-radius: 15px;
-}
-.project-card-view:hover {
-  transform: scale(1.02);
-  overflow: hidden;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  width: 100%; /* Ensures all cards have the same width */
+  max-width: 300px; /* Optional: limits the maximum size of each card */
+  height: 100%; /* Ensures all cards have the same height */
+}
+
+.project-card-view:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 20px,
+    rgba(17, 17, 26, 0.1) 0px 10px 28px, rgba(17, 17, 26, 0.1) 0px 20px 60px;
 }
 
 .card-img-top {
   padding: 20px;
-  opacity: 0.8;
+  opacity: 0.85;
   border-radius: 10px;
-}
-.viewbtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.btn-primary {
-  color: #0a0a0a;
-  background-color: transparent;
-  border-color: #191919;
-}
-
-.btn-primary:hover {
-  color: #191919;
-  background-color: #0974ee;
-  border-color: #0974ee;
-}
-.btn:focus {
-  outline: none !important;
-  box-shadow: none;
+  max-height: 200px; /* Ensures images are uniformly sized */
 }
 
 @media (max-width: 767px) {
-  .project-section{
-    padding-top: 120px;
+  .project-container {
+    padding: 20px;
   }
-  .projectext{
-    top: 10px;
-  } 
-  .projectbackground {
-    padding-top: 10px;
+  .projectext {
+    font-size: 2em;
   }
 }
+
+
 
 /* Contato Style */
 .contactbackground {
