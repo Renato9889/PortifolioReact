@@ -8,24 +8,16 @@ function Aboutpage() {
         <div id='aboutoage'className='aboutpagebackground'>
             <Container>
                 <Row className='textbackground'>
-                    <Col md={7} >
+                    <Col md={7}>
                         <h3 className='aboutmetext'>Sobre Mim</h3>
                         <p className='aboutdetails'>
-                        Bacharel em Ciência da Computação pela Universidade Federal do Tocantins, sempre fui uma pessoa apaixonada por tecnologia e motivada pela curiosidade e criatividade. Proativo, 
-                        busco sempre aprender e a criar soluções inovadoras para os problemas que enfrento. Sou organizado e 
-                        tenho um ótimo gerenciamento de tempo, o que me permite ter sucesso em alcançar metas estabelecidas. 
+                            Atualmente, atuo como Líder de Projetos na Secretaria de Educação (Seduc), onde lidero e gerencio projetos com foco em engenharia de software. Além de minha função em engenharia de software, também atuo no desenvolvimento FullStack, apoiando minha equipe tanto no backend quanto no frontend. Minha abordagem natural para liderar e apoiar minha equipe se traduz na nossa capacidade conjunta de atingir objetivos e entregar soluções de alta qualidade. Meu estilo de liderança é colaborativo e orientado para resultados, promovendo um ambiente onde todos têm a oportunidade de contribuir para o sucesso dos nossos projetos.
                         </p>
                         <p className='aboutdetails'>
-                        Com um domínio abrangente em programação, conquistado ao longo de experiências profissionais, 
-                        dentro de sala de aula e na realização de projetos pessoais, tenho foco em especial em 
-                        desenvolvimento FullStack, que engloba aspectos de UX/UI designer, modelagem de banco de dados, 
-                        desenvolvimento de backend e criação de soluções web e mobile inteligentes.
+                            Sou Bacharel em Ciência da Computação pela Universidade Federal do Tocantins, e minha paixão por tecnologia, motivada pela curiosidade e criatividade, tem sido o motor da minha carreira. Como um profissional proativo, estou sempre em busca de aprender e inovar, criando soluções inteligentes para os desafios que enfrento. Minha habilidade de organização e gerenciamento de tempo é fundamental para o sucesso no cumprimento de metas e prazos estabelecidos.
                         </p>
-                        <p className='aboutdetails'> 
-                        Trabalhar em equipe é uma abordagem que aprecio profundamente, já que acredito que colaborar 
-                        proporciona a oportunidade de aprender através de diversas perspectivas. Minha habilidade de cultivar 
-                        relacionamentos positivos se reflete na maneira como trato as pessoas ao meu redor, sempre priorizando 
-                        o respeito e a empatia. 
+                        <p className='aboutdetails'>
+                            Valorizo profundamente o trabalho em equipe, acreditando que a colaboração oferece uma rica oportunidade de aprendizado através de diferentes perspectivas. Minha habilidade em cultivar relacionamentos positivos e respeitosos reflete meu compromisso com o respeito e a empatia, fundamentais para um ambiente de trabalho harmonioso e produtivo.
                         </p>
                     </Col>
                     <Col md={5}>

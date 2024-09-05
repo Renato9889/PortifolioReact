@@ -193,8 +193,8 @@
 }
 .imagedeveloper {
   margin-top: 50px;
-  max-width: 550px;
-  height: 500px;
+  max-width: 600px;
+  height: 600px;
   background-image: url(../Assets/renato.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -273,8 +273,8 @@
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .aboutmetext {
-  text-align: justify;
-  font-size: 2em ;
+  text-align: center;
+  font-size: 2.5em ;
   color: #191919;
   font-weight: 600;
   letter-spacing: 1px;
@@ -284,6 +284,7 @@ p{
   text-indent: 30px;
 }
 .webimage {
+  margin-top: 30px;
   max-width: 520px;
   height: 500px;
   background-image: url(../Assets/perfilRenato.jpg);
@@ -301,22 +302,30 @@ p{
   }
 }
 
-/* Projetos pagina style */
-
 .project-container {
   background-color: #ffffff;
-  padding:15px 0px 0px 0px;
+  padding: 15px 0px 0px 0px;
   border-radius: 20px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   margin-top: 100px;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 .projectext {
-  font-size: 2.0em;
+  font-size: 2.5em;
   color: #191919;
   font-weight: 600;
   letter-spacing: 1px;
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+.card-titulo {
+  text-align: center;
 }
 
 .project-card {
@@ -326,16 +335,20 @@ p{
 }
 
 .project-card-view {
-  background-color: #e6f2ff;
+  background-color: #7bb0e6;
   border: none;
   opacity: 0.95 !important;
   transition: all 0.3s ease;
   border-radius: 15px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  width: 100%; 
+  width: 100%;
   max-width: 300px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 15px;
 }
 
 .project-card-view:hover {
@@ -351,6 +364,21 @@ p{
   max-height: 200px;
 }
 
+.view-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 767px) {
   .project-container {
     padding: 20px;
@@ -363,9 +391,10 @@ p{
 /* Contato Style */
 .contactbackground {
   width: 100%;
-  height: 120%;
+  height: 100%;
   padding-top: 100px;
 }
+
 .contacthead {
   padding-top: 3rem;
   text-align: center;
@@ -373,6 +402,7 @@ p{
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .contactpara {
   padding-left: 15rem;
   padding-right: 15rem;
@@ -382,21 +412,26 @@ p{
   letter-spacing: 1px;
   padding-bottom: 1rem;
 }
+
 .contactbtn {
+  margin: 2rem auto;
   display: block;
   margin: 0 auto;
+  margin-bottom: 20px;
   width: 150px;
   height: 50px;
   border: solid 2px;
-  background-color: #0004ff;
+  background-color: #007BFF;
   letter-spacing: 2px;
   color: white;
-  border-color: #0004ff;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
 }
+
 .contactbtn:hover {
-  border-color: #000000;
-  background-color: #144cf6;
+  background-color: #2a5bef;
 }
+
 .line {
   margin-top: 11rem;
 }
@@ -417,37 +452,88 @@ p{
   }
   .contactbackground {
     width: 100%;
-    height: 100%;
+    height: 200px;
   }
 }
 
 /* Habilidades Style */
 .habilidadesbackground {
-  display:flex;
+  display: flex;
   width: 100%;
   height: 100%;
   padding-top: 100px;
   padding-left: 1%;
 }
-.textbackgroundhabilidades{
+
+.textbackgroundhabilidades {
   display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 1rem 1rem 1rem 1rem;
   height: 100%;
   background-color: #eef2f5;
   border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+              rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+              rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
+
 .habilidadestext {
-  text-align: justify;
-  font-size: 2em;
+  text-align: center;
+  font-size: 2.5em;
   color: #191919;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-bottom: 1.5rem;
 }
+
+.skills-category {
+  margin-bottom: 2rem;
+}
+
+.category-title {
+  font-size: 1.5em;
+  color: #191919;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.skill-item:hover svg {
+  fill: #fff;
+}
+
+.skill-item svg {
+  margin-right: 0.5rem;
+  transition: fill 0.3s;
+}
+
 @media (max-width: 767px) {
   .habilidadesbackground {
     padding-left: 6%;
+  }
+
+  .skills-list {
+    flex-direction: column;
   }
 }

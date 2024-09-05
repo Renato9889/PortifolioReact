@@ -53,7 +53,7 @@ function Header() {
              href='#aboutoage'
               onClick={() => updateExpanded(false)}
             >
-              Sobre Mim
+              Sobre
             </Nav.Link>
           </Nav.Item>
 
