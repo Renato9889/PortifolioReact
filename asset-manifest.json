@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/PortifolioReact/static/css/main.b7652c94.css",
-    "main.js": "/PortifolioReact/static/js/main.87c33802.js",
+    "main.css": "/PortifolioReact/static/css/main.7032c14b.css",
+    "main.js": "/PortifolioReact/static/js/main.4bce148e.js",
+    "static/media/ams.png": "/PortifolioReact/static/media/ams.81541c76113b75fe83f0.png",
     "static/media/sgb.png": "/PortifolioReact/static/media/sgb.b5cdffcf0bb35fed2306.png",
     "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.2abd7991aa1489baff35.png",
     "static/media/EscolaQueTransforma.png": "/PortifolioReact/static/media/EscolaQueTransforma.4cb9a997fb62cb95327b.png",
@@ -15,11 +16,11 @@
     "static/media/encyclopidia.png": "/PortifolioReact/static/media/encyclopidia.4bd9a6b82fa28d4ca6d0.png",
     "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/PortifolioReact/index.html",
-    "main.b7652c94.css.map": "/PortifolioReact/static/css/main.b7652c94.css.map",
-    "main.87c33802.js.map": "/PortifolioReact/static/js/main.87c33802.js.map"
+    "main.7032c14b.css.map": "/PortifolioReact/static/css/main.7032c14b.css.map",
+    "main.4bce148e.js.map": "/PortifolioReact/static/js/main.4bce148e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7652c94.css",
-    "static/js/main.87c33802.js"
+    "static/css/main.7032c14b.css",
+    "static/js/main.4bce148e.js"
   ]
 }
