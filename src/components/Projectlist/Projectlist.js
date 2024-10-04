@@ -12,6 +12,7 @@ import mail from '../../Assets/mail.png';
 import usersgb from '../../Assets/sgb.png';
 import usercertifica from '../../Assets/certifica.png';
 import userescolaquetransforma from '../../Assets/EscolaQueTransforma.png';
+import ams from '../../Assets/ams.png';
 
 function Projectlist() {
   return (
@@ -46,6 +47,16 @@ function Projectlist() {
               title="Aplicativo Escola Que Transforma"
               description="O aplicativo Escola que Transforma foi desenvolvido  em AppSheet, uma ferramenta Google, em parceria com o Prêmio Escola que Transforma, promovido pelo governo do estado. Esta plataforma é dedicada a reconhecer e valorizar as boas práticas educacionais desenvolvidas nas escolas públicas tocantinenses."
               ghLink="https://www.appsheet.com/start/842c6c08-4b6f-4fc7-9dcf-620d73120bb9"
+              buttonText="Visualizar"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ams}
+              isBlog={false}
+              title="Site AMS - Comércio e Empreendimentos"
+              description="Site desenvolvido em React para a empresa Tocantinense AMS Comércio e Empreendimentos Ltda, especializada em licitações de equipamentos tecnológicos. Configurei o DNS e o domínio, além de criar os e-mails corporativos da empresa."
+              ghLink="https://amsempreendimento.com.br/"
               buttonText="Visualizar"
             />
           </Col>
