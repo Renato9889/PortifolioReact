@@ -1,10 +1,9 @@
 import React from 'react'
 import '../../pages/style.css';
 import { Container, Row, Col } from 'react-bootstrap'
-import { DiPython, DiHtml5, DiCss3, DiJavascript, DiJava, DiReact, DiMysql, DiDjango, DiDart, DiGit, DiGithubBadge, DiWindows, DiLinux, DiPostgresql } from 'react-icons/di'
-import { SiCsharp, SiSpringboot, SiFigma, SiFlutter, SiMicrosoftoffice, SiMaterialdesign, SiTrello } from 'react-icons/si'
+import { DiPython, DiHtml5, DiCss3, DiJavascript, DiJava, DiReact, DiMysql, DiDjango, DiDart, DiGit, DiGithubBadge, DiWindows, DiLinux, DiPostgresql, DiNodejsSmall } from 'react-icons/di'
+import { SiCsharp, SiSpringboot, SiFigma, SiFlutter, SiMicrosoftoffice, SiMaterialdesign, SiTrello, SiTypescript, SiNestjs, SiNextdotjs } from 'react-icons/si'
 import { SlBulb, SlGrid, SlPlane, SlPuzzle, SlMagnifier } from 'react-icons/sl'
-import { CgListTree } from 'react-icons/cg'
 import { GiTalk } from 'react-icons/gi'
 
 const skills = [
@@ -17,7 +16,8 @@ const skills = [
       { icon: <DiCss3 />, name: "CSS3" },
       { icon: <DiJavascript />, name: "JavaScript" },
       { icon: <SiCsharp />, name: "C#" },
-      { icon: <DiDart />, name: "Dart" }
+      { icon: <DiDart />, name: "Dart" },
+      { icon: <SiTypescript />, name: "TypeScript" }
     ]
   },
   {
@@ -29,7 +29,10 @@ const skills = [
       { icon: <SiFlutter />, name: "Flutter" },
       { icon: <SiMaterialdesign />, name: "Material-UI" },
       { icon: <DiMysql />, name: "MySQL" },
-      { icon: <DiPostgresql />, name: "PostgreSQL" }
+      { icon: <DiPostgresql />, name: "PostgreSQL" },
+      { icon: <SiNestjs />, name: "NestJS" },
+      { icon: <DiNodejsSmall />, name: "Node.js" },
+      { icon: <SiNextdotjs />, name: "Next.js" }
     ]
   },
   {
