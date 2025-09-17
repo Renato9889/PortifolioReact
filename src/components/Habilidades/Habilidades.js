@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../pages/style.css';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row} from 'react-bootstrap'
 import { DiPython, DiHtml5, DiCss3, DiJavascript, DiJava, DiReact, DiMysql, DiDjango, DiDart, DiGit, DiGithubBadge, DiWindows, DiLinux, DiPostgresql, DiNodejsSmall } from 'react-icons/di'
 import { SiCsharp, SiSpringboot, SiFigma, SiFlutter, SiMicrosoftoffice, SiMaterialdesign, SiTrello, SiTypescript, SiNestjs, SiNextdotjs } from 'react-icons/si'
 import { SlBulb, SlGrid, SlPlane, SlPuzzle, SlMagnifier } from 'react-icons/sl'

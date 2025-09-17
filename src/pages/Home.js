@@ -1,3 +1,4 @@
+// Home.js (página principal)
 import React from 'react'
 import Header from '../components/Header/Header'
 import Homepage from '../components/Homepage/Homepage'
@@ -8,7 +9,7 @@ import Contactpage from '../components/Contactpage/Contactpage'
 
 function Home() {
   return (
-    <div>
+    <div className="main-container">
       <Header />
       <Homepage />
       <Aboutpage/>

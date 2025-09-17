@@ -1,5 +1,5 @@
+// Text.js (Componente de digitação)
 import React from 'react'
-import '../../pages/style.css';
 import Typewriter from "typewriter-effect";
 
 function Text() {
@@ -9,13 +9,14 @@ function Text() {
         strings: [
           "Cientista da Computação",
           "Desenvolvedor Full Stack",
-          "Ciência de Dados",
-          "UX/IU design",
-          "Desenvolvedor mobile e web"
+          "Especialista em Ciência de Dados",
+          "UX/UI Designer",
+          "Desenvolvedor Mobile e Web"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 40,
+        delay: 60,
       }}
     />
   )
