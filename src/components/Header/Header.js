@@ -72,7 +72,7 @@ function Header() {
               onClick={() => handleNavClick('homepage')}
               className={activeSection === 'homepage' ? 'active' : ''}
             > 
-              <span className="nav-link-number">01.</span> Home 
+               Home 
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -81,7 +81,7 @@ function Header() {
               onClick={() => handleNavClick('aboutoage')}
               className={activeSection === 'aboutoage' ? 'active' : ''}
             >
-              <span className="nav-link-number">02.</span> Sobre
+              Sobre
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -90,7 +90,7 @@ function Header() {
               onClick={() => handleNavClick('habilidadespage')}
               className={activeSection === 'habilidadespage' ? 'active' : ''}
             >
-              <span className="nav-link-number">03.</span> Habilidades
+               Habilidades
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -99,7 +99,7 @@ function Header() {
               onClick={() => handleNavClick('projectpage')}
               className={activeSection === 'projectpage' ? 'active' : ''}
             >
-              <span className="nav-link-number">04.</span> Projetos
+              Projetos
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
@@ -108,7 +108,7 @@ function Header() {
               onClick={() => handleNavClick('contactpage')}
               className={activeSection === 'contactpage' ? 'active' : ''}
             >
-              <span className="nav-link-number">05.</span> Contato
+               Contato
             </Nav.Link>
           </Nav.Item>
           <Button
