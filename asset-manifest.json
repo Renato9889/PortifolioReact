@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortifolioReact/static/css/main.7032c14b.css",
-    "main.js": "/PortifolioReact/static/js/main.b1895810.js",
+    "main.css": "/PortifolioReact/static/css/main.ac8a182d.css",
+    "main.js": "/PortifolioReact/static/js/main.29ac85ce.js",
     "static/media/ams.png": "/PortifolioReact/static/media/ams.81541c76113b75fe83f0.png",
     "static/media/sgb.png": "/PortifolioReact/static/media/sgb.b5cdffcf0bb35fed2306.png",
     "static/media/Admin-Panel-Dashboard.png": "/PortifolioReact/static/media/Admin-Panel-Dashboard.2abd7991aa1489baff35.png",
@@ -9,18 +9,16 @@
     "static/media/pibic.png": "/PortifolioReact/static/media/pibic.b76c649ccdf292f69e7c.png",
     "static/media/commerce.png": "/PortifolioReact/static/media/commerce.a4a73d3a6bfe6ba206f8.png",
     "static/media/game_home.png": "/PortifolioReact/static/media/game_home.9f4dbe5dc7dcec499a33.png",
-    "static/media/renato.png": "/PortifolioReact/static/media/renato.f525c46c38bcc384cb0d.png",
     "static/media/perfilRenato.jpg": "/PortifolioReact/static/media/perfilRenato.6de5ba2094db69483715.jpg",
     "static/media/certifica.png": "/PortifolioReact/static/media/certifica.3bb04157d48752a6ba49.png",
     "static/media/mail.png": "/PortifolioReact/static/media/mail.d810eca4e9031c4c4528.png",
     "static/media/encyclopidia.png": "/PortifolioReact/static/media/encyclopidia.4bd9a6b82fa28d4ca6d0.png",
-    "static/media/bars.svg": "/PortifolioReact/static/media/bars.a2e35dd5aede7934d82e.svg",
     "index.html": "/PortifolioReact/index.html",
-    "main.7032c14b.css.map": "/PortifolioReact/static/css/main.7032c14b.css.map",
-    "main.b1895810.js.map": "/PortifolioReact/static/js/main.b1895810.js.map"
+    "main.ac8a182d.css.map": "/PortifolioReact/static/css/main.ac8a182d.css.map",
+    "main.29ac85ce.js.map": "/PortifolioReact/static/js/main.29ac85ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.7032c14b.css",
-    "static/js/main.b1895810.js"
+    "static/css/main.ac8a182d.css",
+    "static/js/main.29ac85ce.js"
   ]
 }
