@@ -17,7 +17,7 @@ function Home() {
         <Row className="align-items-center min-vh-100">
           <Col md={7} className="home-content">
             <h6 className='greeting-text'>Olá, eu sou</h6>
-            <h1 className='headtext'>Renato Luiz</h1>
+            <h1 className='headtext'>Renato Luiz de Almeida</h1>
             <h2 className='subtext'><Text /></h2>
             <p className='description-text'>
              "Desenvolvedor FullStack que busca criar soluções que façam diferença, unindo tecnologia, excelência e empatia para compreender necessidades, resolver problemas e crescer junto com cada projeto."
