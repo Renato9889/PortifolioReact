@@ -20,7 +20,7 @@ function Home() {
             <h1 className='headtext'>Renato Luiz de Almeida</h1>
             <h2 className='subtext'><Text /></h2>
             <p className='description-text'>
-             "Desenvolvedor FullStack que busca criar soluções que façam diferença, unindo tecnologia, excelência e empatia para compreender necessidades, resolver problemas e crescer junto com cada projeto."
+             "Sou Desenvolvedor FullStack e busco criar soluções que façam diferença, unindo tecnologia, excelência e empatia para compreender necessidades, resolver problemas e crescer junto com cada projeto."
             </p>
             <div className="social-links">
               <button onClick={() => window.open("https://github.com/Renato9889")}

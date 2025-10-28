@@ -21,7 +21,7 @@ function Aboutpage() {
                       {/* ATUALIZADO: Container para centralizar a imagem */}
                       <div className="image-container">
                         <div className="webimage">
-                          <img src={require('../../Assets/perfilRenato.jpg')} alt="Renato Luiz" />
+                          <img src={require('../../Assets/novateste.png')} alt="Renato Luiz" />
                         </div>
                       </div>
                   </Col>

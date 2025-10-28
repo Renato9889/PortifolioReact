@@ -9,7 +9,6 @@ function Text() {
         strings: [
           "Cientista da Computação",
           "Desenvolvedor Full Stack",
-          "Especialista em Ciência de Dados",
           "UX/UI Designer",
           "Desenvolvedor Mobile e Web"
         ],
